@@ -1,24 +1,23 @@
-body {
+body.home, body.recipe {
     font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
 }
 
-h1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.home h1 {
     font-size: 64px; 
     text-align: center; 
     text-shadow: 2px 2px 50px black; 
 }
 
-h2 {
+.home h2 {
     font-size: 32px;
     text-align: center; 
-
 }
 
-.recipes-list {
+.home .recipes-list {
     text-align: center;
 }
 
-.brand-logo {
+.home .brand-logo {
     border-bottom: 2px solid black;
 }
