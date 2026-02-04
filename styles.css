@@ -3,6 +3,12 @@ body.home, body.recipe {
     background-color: whitesmoke;
 }
 
+/* ADDED */
+body.recipe {
+    margin-left: 177px;
+    margin-right: 568px; 
+}
+
 .home h1 {
     font-size: 64px; 
     text-align: center; 
@@ -18,9 +24,10 @@ body.home, body.recipe {
     border-bottom: 2px solid black;
 }
 
-.home img {
+/* CHANGED SO FUTURE IMAGES AREN'T FORCED TO 250x250 */
+.home .recipe-card img {
     width: 250px;
-    height: 250px; 
+    height: auto; 
 }
 
 .image-container {
@@ -30,9 +37,20 @@ body.home, body.recipe {
 .recipe-card { 
     display: inline-block;
     text-align: center; 
-    margin: 0 auto;
+    /* ADDED MARGIN */
+    margin: 10px; 
+    /* ONLY CENTERS BLOCK-LEVEL ELEMENTS; REMOVE */
+    /* margin: 0 auto; */
 }
 
 .recipe-card a {
     display: block;
 }
+
+/* ADDED */
+main header img {
+    width: 500px;
+    height: auto;
+}
+
+/* MOVE RECIPE CONTENT UNDERNEATH IMAGE; TRY ADDING MARGIN-RIGHT */
