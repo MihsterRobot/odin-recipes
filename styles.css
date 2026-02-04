@@ -14,10 +14,25 @@ body.home, body.recipe {
     text-align: center; 
 }
 
-.home .recipes-list {
-    text-align: center;
-}
-
 .home .brand-logo {
     border-bottom: 2px solid black;
+}
+
+.home img {
+    width: 250px;
+    height: 250px; 
+}
+
+.image-container {
+    text-align: center; 
+}
+
+.recipe-card { 
+    display: inline-block;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+.recipe-card a {
+    display: block;
 }
