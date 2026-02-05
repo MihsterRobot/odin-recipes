@@ -14,7 +14,6 @@ body.recipe {
     text-shadow: 2px 2px 50px black; 
 }
 
-/* INCREASED FONT SIZE */
 .home h2 {
     font-size: 35px;
     text-align: center; 
@@ -24,7 +23,6 @@ body.recipe {
     border-bottom: 2px solid black;
 }
 
-/* ADDED BOTTOM MARGIN */
 .home .recipe-card img {
     width: 250px;
     height: auto; 
@@ -32,33 +30,22 @@ body.recipe {
     margin-top: 6px; 
 }
 
-/* CONVERTED TO FLEX CONTAINER */
 .image-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; 
 }
 
-/* CONVERTED TO FLEX ITEM, UPDATED TEXT TO BOLD*/
 .recipe-card { 
-    /* display: inline-block; */
     flex: 0 1 300px; 
     text-align: center; 
     margin: -3px;  
     font-weight: 800;
 }
-    /* ONLY CENTERS BLOCK-LEVEL ELEMENTS; REMOVE */
-    /* margin: 0 auto; */
 
-/* REMOVE UNDERLINE FROM RECIPE LINKS */
 .recipe-card a {
     text-decoration: none;
 }
-
-/* REMOVE */
-/* .recipe-card a {
-    display: block;
-} */
 
 main header img {
     width: 500px;
