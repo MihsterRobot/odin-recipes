@@ -28,7 +28,7 @@ main header img {
     border-bottom: 2px solid black;
 }
 
-.image-container {
+.recipe-gallery {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; 
