@@ -1,6 +1,11 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body.home, body.recipe {
     font-family: 'Courier New', Courier, monospace;
     background-color: whitesmoke;
+    box-sizing: border-box; 
 }
 
 body.recipe {
